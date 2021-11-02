@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
+	"github.com/cheolgyu/stock-write-common/db"
+	"github.com/cheolgyu/stock-write-model/model"
 	"github.com/cheolgyu/stock-write-project-rebound/src/c"
-	"github.com/cheolgyu/stock-write-project-rebound/src/db"
-	"github.com/cheolgyu/stock-write-project-rebound/src/model"
 	"github.com/gchaincl/dotsql"
 	"github.com/swithek/dotsqlx"
 )

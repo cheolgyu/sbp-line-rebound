@@ -1,4 +1,4 @@
-package rebound
+package handler
 
 import (
 	"errors"
@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
+	"github.com/cheolgyu/stock-write-model/model"
 	"github.com/cheolgyu/stock-write-project-rebound/src/dao"
-	"github.com/cheolgyu/stock-write-project-rebound/src/model"
 )
 
 var ch_price_rebound chan Calculate

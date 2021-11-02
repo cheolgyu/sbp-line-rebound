@@ -1,4 +1,4 @@
-package rebound
+package handler
 
 import (
 	"fmt"
@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/cheolgyu/stock-write-model/model"
 	"github.com/cheolgyu/stock-write-project-rebound/src/c"
 	"github.com/cheolgyu/stock-write-project-rebound/src/dao"
-	"github.com/cheolgyu/stock-write-project-rebound/src/model"
 	"github.com/cheolgyu/stock-write-project-rebound/src/utils"
 )
 

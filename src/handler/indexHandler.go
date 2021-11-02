@@ -1,13 +1,12 @@
-package rebound
+package handler
 
 import (
 	"fmt"
 	"log"
 	"sync"
 
-	"github.com/cheolgyu/stock-write-project-rebound/src/c"
+	"github.com/cheolgyu/stock-write-model/model"
 	"github.com/cheolgyu/stock-write-project-rebound/src/dao"
-	"github.com/cheolgyu/stock-write-project-rebound/src/model"
 )
 
 var upsert_bound bool
@@ -30,7 +29,7 @@ func init() {
 
 	upsert_bound = true
 
-	_price_type_arr, err := dao.GetConfig_Upper_Code(c.UPPER_CODE_PRICE_TYPE)
+	_price_type_arr, err := dao.GetConfig_Upper_Code()
 	ChkErr(err)
 
 	price_type_arr = _price_type_arr
