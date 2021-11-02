@@ -5,14 +5,17 @@ import (
 
 	"github.com/cheolgyu/stock-write-common/db"
 	"github.com/cheolgyu/stock-write-model/model"
+	"github.com/cheolgyu/stock-write-project-rebound/src/c"
 )
 
 func Update_info() {
-	query := `UPDATE public.info SET  updated= now() WHERE name = 'updated_rebound' `
+	query := `INSERT INTO public.info( name, updated) VALUES ('`
+	query += c.INFO_NAME_UPDATED
+	query += `', now()) ON CONFLICT ("name") DO UPDATE SET  updated= now()  `
 
 	_, err := db.Conn.Exec(query)
 	if err != nil {
-		log.Fatalln(err)
+		log.Fatalln(err, query)
 		panic(err)
 	}
 }
