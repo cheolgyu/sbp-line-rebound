@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cheolgyu/stock-write-project-rebound/src/c"
+	"github.com/cheolgyu/sbp-line-rebound/src/c"
 )
 
 type File struct{}
