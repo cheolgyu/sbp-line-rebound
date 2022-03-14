@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cheolgyu/sbp-line-rebound/src/c"
+	"github.com/cheolgyu/line/bound/c"
 )
 
 type File struct{}

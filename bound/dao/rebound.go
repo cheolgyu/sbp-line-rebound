@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/cheolgyu/sbm-base/db"
-	"github.com/cheolgyu/sbm-struct/model"
-	"github.com/cheolgyu/sbp-line-rebound/src/c"
+	"github.com/cheolgyu/base/db"
+	"github.com/cheolgyu/line/bound/c"
+	"github.com/cheolgyu/model"
 	"github.com/gchaincl/dotsql"
 	"github.com/swithek/dotsqlx"
 )

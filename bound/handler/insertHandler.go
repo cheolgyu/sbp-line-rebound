@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cheolgyu/sbm-struct/model"
-	"github.com/cheolgyu/sbp-line-rebound/src/c"
-	"github.com/cheolgyu/sbp-line-rebound/src/dao"
-	"github.com/cheolgyu/sbp-line-rebound/src/utils"
+	"github.com/cheolgyu/line/bound/c"
+	"github.com/cheolgyu/line/bound/dao"
+	"github.com/cheolgyu/line/bound/utils"
+	"github.com/cheolgyu/model"
 )
 
 var ch_price_sql_write chan ReboundSqlWrite //= make(chan ReboundSqlWrite)

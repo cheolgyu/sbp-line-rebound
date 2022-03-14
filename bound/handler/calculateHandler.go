@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/cheolgyu/sbm-struct/model"
-	"github.com/cheolgyu/sbp-line-rebound/src/dao"
+	"github.com/cheolgyu/line/bound/dao"
+	"github.com/cheolgyu/model"
 )
 
 var ch_price_rebound chan Calculate
