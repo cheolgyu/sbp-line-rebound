@@ -1,4 +1,4 @@
-module github.com/cheolgyu/line
+module github.com/cheolgyu/graph
 
 go 1.16
 

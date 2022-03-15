@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cheolgyu/line/bound/c"
+	"github.com/cheolgyu/graph/bound/c"
 )
 
 type File struct{}

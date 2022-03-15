@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cheolgyu/line/bound/c"
-	"github.com/cheolgyu/line/bound/dao"
-	"github.com/cheolgyu/line/bound/utils"
+	"github.com/cheolgyu/graph/bound/c"
+	"github.com/cheolgyu/graph/bound/dao"
+	"github.com/cheolgyu/graph/bound/utils"
 	"github.com/cheolgyu/model"
 )
 

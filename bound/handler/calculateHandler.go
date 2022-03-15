@@ -6,7 +6,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/cheolgyu/line/bound/dao"
+	"github.com/cheolgyu/graph/bound/dao"
 	"github.com/cheolgyu/model"
 )
 

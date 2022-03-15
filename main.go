@@ -4,8 +4,8 @@ import (
 	_ "github.com/cheolgyu/base/db"
 	_ "github.com/cheolgyu/base/env"
 	"github.com/cheolgyu/base/logging"
-	"github.com/cheolgyu/line/bound/dao"
-	"github.com/cheolgyu/line/bound/handler"
+	"github.com/cheolgyu/graph/bound/dao"
+	"github.com/cheolgyu/graph/bound/handler"
 )
 
 func main() {

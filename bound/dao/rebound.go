@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/cheolgyu/base/db"
-	"github.com/cheolgyu/line/bound/c"
+	"github.com/cheolgyu/graph/bound/c"
 	"github.com/cheolgyu/model"
 	"github.com/gchaincl/dotsql"
 	"github.com/swithek/dotsqlx"
