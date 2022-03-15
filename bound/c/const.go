@@ -10,5 +10,3 @@ const DOTSQL_NAME_REBOUND = "insert-hist.rebound-table"
 
 const FILE_FLAG_APPEND = os.O_RDWR | os.O_CREATE | os.O_APPEND
 const FILE_FLAG_TRUNC = os.O_RDWR | os.O_CREATE | os.O_TRUNC
-
-const INFO_NAME_UPDATED = "rebound_updated"
