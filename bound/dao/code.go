@@ -9,7 +9,7 @@ import (
 )
 
 func Update_info() {
-	info.UpdateNow(db.Conn, "update_bound")
+	info.UpdateNow(db.Conn, info.NAME_UPDATE_GRAPH_BOUND)
 }
 
 func GetCodeAll() ([]model.Code, error) {
